@@ -77,7 +77,7 @@ def fetch_upcoming_matches():
 
     return upcoming_matches
 
-@app.route('/scores')
+@app.route('/')
 def index():
     cricket_scores = Get_Cricket_Scores()
     upcoming_matches = fetch_upcoming_matches()
