@@ -20,4 +20,3 @@ spec:
       - image: kanha05/flask-app:replaceImageTag
         name: flask-app
         resources: {}
-status: {}
