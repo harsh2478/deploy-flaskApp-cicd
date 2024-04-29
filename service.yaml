@@ -9,8 +9,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    matchLabels:
-      app: flask-app
+    app: flask-app
   ports:
     - port: 80
       targetPort: 8080
