@@ -11,7 +11,7 @@ def Get_Cricket_Scores():
     url = "https://cricbuzz-cricket.p.rapidapi.com/matches/v1/recent"
 
     headers = {
-        "X-RapidAPI-Key": "88bffd2f04msh18034f146e95802p1e688bjsn19fe41e1a165",
+        "X-RapidAPI-Key": ""<Your-API-Key>",  # Dont forget to replace this place with your actual API key",
         "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com"
     }
 
